@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+.offer {
+  display: flex;
+  margin: 30px;
+  width: 90%;
+}
+.compLogo {
+  width: 20%;
+  background-color: deeppink;
+}
+.mainInfo {
+  display: flex;
+  flex-direction: column;
+  background-color: burlywood;
+  width: 40%;
+}
+.companyInfo {
+  display: flex;
+}
+.company, .new, .featured {
+  margin: 10px;
+}
+.position {
+  background-color: aqua;
+}
+.languages {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 40%;
+  background-color: darkorange;
+}
+.lang {
+  border-radius: 10px;
+  background-color: darkturquoise;
+  margin: 20px;
+  padding: 5px;
+}

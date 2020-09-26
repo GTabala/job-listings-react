@@ -7,7 +7,7 @@ const MakePage = ({ Offers }) => {
       {Offers.map((job) => {
         return (
           <div className="offer">
-              <div className="compLogo"></div>
+            <div className="compLogo"></div>
             <div className="mainInfo">
               <div className="companyInfo">
                 <div className="company">{job.company}</div>

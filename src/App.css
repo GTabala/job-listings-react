@@ -54,7 +54,9 @@
 .companyInfo {
   display: flex;
 }
-.company, .new, .featured {
+.company,
+.new,
+.featured {
   margin: 10px;
 }
 .position {

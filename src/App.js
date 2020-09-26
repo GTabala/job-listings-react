@@ -1,8 +1,8 @@
 import React from "react";
-import logo from "./images/bg-header-desktop.svg";
 import "./App.css";
 import MakePage from "./MakePage";
 import JobOffers from "./data.json";
+import logo from "./bg-header-desktop.svg"
 
 function App() {
   return (

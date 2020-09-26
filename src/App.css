@@ -36,12 +36,19 @@
     transform: rotate(360deg);
   }
 }
+.container {
+  margin-left: 100px;
+  margin-right: auto;
+}
 .offer {
   display: flex;
   margin: 30px;
   width: 90%;
 }
 .compLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 20%;
   background-color: deeppink;
 }
@@ -50,6 +57,8 @@
   flex-direction: column;
   background-color: burlywood;
   width: 40%;
+  text-align: start;
+
 }
 .companyInfo {
   display: flex;
@@ -61,6 +70,7 @@
 }
 .position {
   background-color: aqua;
+  padding: 10px;
 }
 .languages {
   display: flex;
@@ -69,9 +79,24 @@
   width: 40%;
   background-color: darkorange;
 }
-.lang {
-  border-radius: 10px;
+.lang, .skills {
+  border-radius: 5px;
   background-color: darkturquoise;
-  margin: 20px;
+  margin: 10px;
   padding: 5px;
+}
+
+.contractInfo {
+  padding: 10px;
+  background-color: forestgreen;
+}
+
+.new, .featured {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 15px;
+}
+.new {
+  background-color: teal;
 }

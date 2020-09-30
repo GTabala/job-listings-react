@@ -87,6 +87,7 @@
 }
 
 .contractInfo {
+  display: flex;
   padding: 10px;
   background-color: forestgreen;
 }
@@ -99,4 +100,11 @@
 }
 .new {
   background-color: teal;
+}
+.noDot {
+  padding-left: 0;
+  list-style: none;
+}
+.dotted {
+  padding-left: 12px;
 }

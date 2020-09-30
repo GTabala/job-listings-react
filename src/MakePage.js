@@ -19,7 +19,7 @@ const MakePage = ({ Offers }) => {
               </div>
               <div className="position">{job.position}</div>
               <div className="contractInfo">
-                {job.postedAt} {job.contract} {job.location}
+                <ul className="noDot"><li>{job.postedAt}</li></ul>   <ul><li className="dotted">{job.contract}</li></ul><ul><li className="dotted">{job.location}</li></ul>
               </div>
             </div>
             <Skills lang={job.languages} role={job.role} level={job.level} />

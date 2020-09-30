@@ -8,8 +8,11 @@ const Skills = ({ lang, role, level}) => {
       {lang.map((itm) => (
         <div className="lang">{itm}</div>
       ))}
-    </div>
+      </div>
   );
 };
 
 export default Skills;
+
+
+
